@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./test_llama/ingestion/vector_store"
+    ]
+}
