@@ -3,7 +3,7 @@ from abc import ABC
 
 class TextChunker(ABC):
     def __init__(self, chunk_size = 1024):
-        super().__init()
+        super().__init__()
         self.chunk_size = chunk_size
         self.text_parser = SentenceSplitter(
             chunk_size=chunk_size
